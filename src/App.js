@@ -1,8 +1,19 @@
-import React from 'react';
+import React, {Component} from 'react';
+import Navbar from './components/Navbar/Navbar';
 import './App.scss';
+import TourList from './components/TourList';
 
-function App() {
-  return <h1>hmm</h1>;
+class App extends Component {
+  state = {  }
+  render() { 
+    return (
+      <main>
+        <Navbar />
+        <TourList />
+      </main>
+    );
+  }
 }
-
+ 
 export default App;
+
