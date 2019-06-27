@@ -1,11 +1,11 @@
-import React, {Component} from 'react';
-import Navbar from './components/Navbar/Navbar';
-import './App.scss';
-import TourList from './components/TourList';
+import React, { Component } from "react";
+import Navbar from "./components/Navbar/Navbar";
+import "./App.scss";
+import TourList from "./components/TourList";
 
 class App extends Component {
-  state = {  }
-  render() { 
+  state = {};
+  render() {
     return (
       <main>
         <Navbar />
@@ -14,6 +14,5 @@ class App extends Component {
     );
   }
 }
- 
-export default App;
 
+export default App;
